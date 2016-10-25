@@ -9,9 +9,9 @@
 class HX711ADC
 {
 	private:
-		byte PD_SCK;	// Power Down and Serial Clock Input Pin
-		byte DOUT;		// Serial Data Output Pin
-		byte GAIN;		// amplification factor
+		uint8_t PD_SCK;	// Power Down and Serial Clock Input Pin
+		uint8_t DOUT;		// Serial Data Output Pin
+		uint8_t GAIN;		// amplification factor
 		long OFFSET;	// used for tare weight
 		float SCALE;	// used to return weight in grams, kg, ounces, whatever
 
